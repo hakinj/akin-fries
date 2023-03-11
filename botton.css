@@ -1,0 +1,10 @@
+.btn {
+    background-color: #cea124;
+    color: #11122b;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+    margin-bottom: 20px 1;
+}

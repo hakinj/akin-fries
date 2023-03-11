@@ -1,0 +1,224 @@
+
+#play {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    color: blue;
+    background-color: #000;
+    grid-column: 4/7;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 2px;
+
+    grid-row: 4/7
+    
+}
+
+input {
+    
+    font-family: sans-serif;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    
+  
+
+    border-bottom: 3px solid #11122b;
+   display: block;   
+}
+
+#btn {
+
+    margin-left: 60px;
+    background-color: #cea244;
+}
+#myTextBox {
+    display: block;
+    border: 2px;
+    border-bottom: 3px solid #11122b;
+    transition: 0.3s;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aquamarine;
+
+
+}
+
+.myTextBox {
+    transition: 0.5s;
+    color: #11122b;
+    letter-spacing: 2px;
+}
+
+
+
+
+.nav-wrapper {
+    background-color: pink;
+    color: #11122b;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 150px;
+    border: 2px solid gold;
+    padding: 20px;
+    background-attachment: fixed;
+  
+
+   
+    
+}
+.name-logo {
+    align-items: center;
+    text-align: center;
+    font-size:2em ;
+    
+
+}
+.name-logo > .name {
+    color: #cea244;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.name-logo > img {
+    width: 100%;
+    height: 100px;
+    margin-top: 3px;
+    border-radius: 2px;
+}
+
+.body {
+
+    margin: 0px;
+    
+}.nav-wrapper > .hours {
+    font-size: 1.5em;
+    margin-top: 50px;
+    transition: 0.5s;
+    width:200px ;
+}
+.nav-wrapper > .hours:hover{
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    
+    
+
+}
+
+.nav-wrapper > .address {
+    font-size: 1.5em;
+    margin-top: 50px;
+    transition: 0.5s;
+    width: 200px;
+}
+
+.nav-wrapper > .address:hover {
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+
+}
+
+
+.hero-sect {
+    background-image: url(../image/backgrounds/contact.jpg);
+    height: 700px;
+    padding: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 80%;
+        
+
+   
+    
+    
+    
+}
+
+.Hero-sect {
+    margin-bottom: 50px;
+    
+}
+.hero1 {
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    color: pink;
+    font-size: 3em;
+    background-color: rgba(13, 14, 13, 0.76);
+    width: 600px;
+    border-radius: 50px ;
+    border-bottom: 5px #cea244;
+    margin-top: -100px;
+    
+
+
+}
+.hero2 {
+    text-align: center;
+    color: whitesmoke;
+    background-color:rgba(13, 14, 13, 0.76);
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border-radius: 50px;
+
+
+}
+
+
+li {
+    color: whitesmoke;
+    font-size: 2em;
+}
+
+.squares {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5px;
+    
+   
+}
+
+.squares > img {
+    width: 350PX;
+    height: 200px;
+    border: 2px solid #cea124;
+    text-align: center;
+    margin-top: 40px;
+ 
+}
+
+
+#ig {
+    font-size: 2em;
+    text-align: center;
+
+}
+p {
+    color: azure;
+    font-size: 1.2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+.word {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+h1 {
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    color: azure;
+}
+
+
+p2{
+
+color: azure
+}
